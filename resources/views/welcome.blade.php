@@ -175,7 +175,7 @@
     <nav class="py-4 px-6 md:px-10 flex items-center justify-between absolute w-full z-10">
         <div class="flex items-center">
             <div class="mr-2 w-12 h-12">
-                <img src="{{ asset('images/svgwaves_io_svg (3) 1.svg') }}" alt="Panther Logo" class="panther-icon">
+                <img src="{{ asset('images/svgwaves_io_svg 1.svg') }}" alt="Panther Logo" class="panther-icon">
             </div>
             <a href="#" class="text-xl font-bold text-white">WAKANDA<span class="vibranium-text">FOREVER</span></a>
         </div>
@@ -389,7 +389,7 @@
             <div class="flex flex-col md:flex-row justify-between items-center mb-8">
                 <div class="flex items-center mb-6 md:mb-0">
                     <div class="mr-2 w-10 h-10">
-                        <img src="{{ asset('images/svgwaves_io_svg (3) 1.svg') }}" alt="Logo" class="panther-icon">
+                        <img src="{{ asset('images/svgwaves_io_svg 1.svg') }}" alt="Logo" class="panther-icon">
                     </div>
                     <span class="text-xl font-bold">WAKANDA<span class="vibranium-text">FOREVER</span></span>
                 </div>
