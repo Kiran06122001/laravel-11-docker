@@ -6,7 +6,9 @@ services:
     build: .
     restart: always
     ports:
-      - "8003:8000"
+      - "8083:8000"
+    volumes:
+      - .:/var/www/html
     env_file:
       - .env
     depends_on:
@@ -15,6 +17,8 @@ services:
       - laravel
     environment:
       - DB_HOST=mysql
+
+
 
   mysql:
     container_name: mysql
@@ -50,3 +54,4 @@ volumes:
     
 networks:
   laravel:
+  
